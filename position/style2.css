@@ -1,0 +1,22 @@
+.pink {
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+
+}
+.purple {
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 70px;
+    left: 70px;
+}
+.green {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 40px;
+    left: 145px;
+}
