@@ -59,16 +59,39 @@ nav {
     font-weight: 400;
     font-size: 13px;
     line-height: 15px;
-    color: ;
+    color: #ffff;
+    
 }
 .list__item_link {
-    font-weight: bold;
-    font-size: 18px;
-    text-decoration: none;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 168%;
+text-decoration: none;
+color: #cbcdcd;
+transition: 0.3s;
 }
 .list__item {
     height: 180px;
 }
 nobr {
     color: #F1CDB3;
+}
+
+html {
+    height: 100%;
+    background: radial-gradient(100% 215.42% at 0% 0%, #58483A 0%, #262425 100%);
+}
+
+.background {
+    position: absolute;
+    top: 0px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.list__item_link:hover {
+    color: #ffff;
+    border-bottom: 3px solid #F1CDB3;
 }
